@@ -1,0 +1,12 @@
+{
+  "name": "video-backend",
+  "version": "1.0.0",
+  "description": "Netflix шиг сайтын видео стриминг backend жишээ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
