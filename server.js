@@ -11,7 +11,7 @@ const movies = [
   { id: '2', title: 'Хаврын цас', year: 2025, duration: '1ц 48мин', file: 'sample2.mp4' }
 ];
 
-app.use(express.static('public'));
+app.use(express.static('.'));
 
 // 1. Кино жагсаалт авах API
 app.get('/api/movies', (req, res) => {
